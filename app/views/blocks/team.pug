@@ -1,0 +1,14 @@
+section.team 
+  .container 
+    +blockBox("Who we are", "Meet out team", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua  consectetur adipisicing elit, sed do  consectetur adipisicing elit, sed do.")
+    .team-list 
+      +teamItem
+        +teamSocial("https://www.facebook.com/baogam02/")
+      +teamItem("./images/img-team2.png", "Christopher Campbell", "Branding/UX design")
+        +teamSocial("christopher")
+      +teamItem("./images/img-team3.png", "Michael Fertig", "Developer") 
+        +teamSocial("michael")
+
+section.brand 
+  .container 
+    img(src="./images/img-logos.png" alt="brands")
